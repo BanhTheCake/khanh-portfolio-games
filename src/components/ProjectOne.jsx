@@ -38,7 +38,7 @@ export default function ProjectOne() {
                 </PhotoView>
                 </div>
             </div>
-            <div className="flex py-10 flex-col items-center">
+            <div className="flex pt-10 pb-5 flex-col items-center">
                 <p className="font-UTM text-center text-sm px-2 w-250 max-w-full normal-case">This design embodies the faded majesty of the Nguyen Dynasty, blending battle-ready armor with Hue's royal textiles. The armor plates and silk robes are adorned with intricate imperial court embroidery and traditional royal patterns.</p>
             </div>
             <div className="flex flex-col items-center font-UTM text-white py-5">
