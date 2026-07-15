@@ -10,5 +10,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss(),
   ],
-  // base: "/khanh-portfolio",
+  base: "/khanh-portfolio-games",
 })
