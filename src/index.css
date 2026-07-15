@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'UTM_Amerika_Sans';
+    src: url('/fonts/UTM.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'StarifeDemo';
+    src: url('/fonts/StarifeDemo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@theme {
+    --font-UTM: 'UTM_Amerika_Sans', sans-serif;
+    --font-starifeDemo: 'StarifeDemo', sans-serif;
+}
+
+body {
+    @apply bg-black;
+    @apply overflow-x-hidden;
+    @apply w-screen;
+}
