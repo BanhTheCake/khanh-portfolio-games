@@ -81,13 +81,43 @@ const cardImgs = [
     { src: "Images/Card_2_11.png", alt: "Card 11" },
 ]
 
+const ImageWithSkeleton = ({ src, alt, className = "", wrap = true, aspect = "aspect-[4/3]" }) => {
+    const [loaded, setLoaded] = useState(false);
+    const handleImgRef = (node) => {
+        if (node && node.complete && node.naturalWidth > 0) {
+            setLoaded(true);
+        }
+    };
+ 
+    const img = (
+        <div className={`relative overflow-hidden ${!loaded ? aspect : ""}`}>
+            {!loaded && (
+                <div className="absolute inset-0 bg-gray-700 animate-pulse" />
+            )}
+            <PhotoView src={src}>
+            <img
+                ref={handleImgRef}
+                className={`${className} transition-opacity duration-300 ${loaded ? "opacity-100" : "opacity-0"}`}
+                src={src}
+                alt={alt}
+                onLoad={() => setLoaded(true)}
+            />
+            </PhotoView>
+        </div>
+    );
+ 
+    return wrap ? <PhotoView src={src}>{img}</PhotoView> : img;
+};
 
 const IllustrationPanel = ({ illustration }) => (
     <div className="md:px-10 px-5">
         <div className="relative">
-            <PhotoView src={illustration.image}>
-                <img className="w-full" src={illustration.image} alt={illustration.title} />
-            </PhotoView>
+            <ImageWithSkeleton
+                    src={illustration.image}
+                    alt={illustration.title}
+                    className="w-full"
+                    aspect="aspect-[16/9]"
+                />
             {/* Lớp phủ gradient đen từ trái sang phải */}
              <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-black/20 via-black/10 to-transparent pointer-events-none" />
             {/* Tiêu đề nằm trên cùng bên trái */}
@@ -135,7 +165,7 @@ export default function ProjectTwo() {
                         </PhotoView>
                         </div>
                         <p className="font-UTM text-center text-sm px-2  normal-case">{item.desc}</p>
-                        <div className="h-px border bg-white opacity-80 flex-1"></div>
+                        <div className="block md:hidden h-px border bg-white opacity-80 flex-1"></div>
                     </div>
                 ))}
             </div>
