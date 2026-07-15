@@ -8,7 +8,7 @@ export default function Information() {
         <div className="w-full max-w-280 mx-auto font-UTM text-white pt-10 md:px-10">
             <div className="flex flex-col md:flex-row items-center gap-5 pb-5 md:pb-10">
               <div className="flex shrink-0 items-center justify-center overflow-hidden">
-                <img className=" h-80 md:h-100 rounded-md" src="Images/Information_2.JPG" alt="Ảnh Đại Diện" />
+                <img className=" h-80 md:h-100 rounded-md" src="Images/Information_1.JPG" alt="Ảnh Đại Diện" />
               </div>
               <div className=" flex flex-col gap-5 px-10">
                 <div className="flex flex-col gap-3 pb-2">
