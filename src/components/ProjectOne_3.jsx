@@ -7,7 +7,7 @@ const illustrations = [
         title: "Illustration 1",
         image: "Images/Loading_1.png",
         video: "Videos/Loading_1.mp4",
-        processDescription: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, eligendi consequuntur commodi, dolorem sequi cupiditate nostrum animi, doloremque voluptate aspernatur ea. Autem, ratione deleniti! Repellendus quibusdam rem nobis culpa vitae!",
+        processDescription: "Standing as the crown jewel of the imperial map, this grand fortress gate draws direct inspiration from Hue’s legendary Ngọ Môn Gate. Players are greeted by a massive, U-shaped stone pedestal pierced by five arched portals—with the golden center gate, historically reserved for the emperor, now serving as a highly contested choke point for players to control.",
         process: [
             "Images/Process_loading_1.png",
             "Images/Process_loading_2.png",
@@ -18,7 +18,7 @@ const illustrations = [
         title: "Illustration 2",
         image: "Images/Loading_2.png",
         video: "Videos/Loading_2.mp4",
-        processDescription: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, eligendi consequuntur commodi, dolorem sequi cupiditate nostrum animi, doloremque voluptate aspernatur ea. Autem, ratione deleniti! Repellendus quibusdam rem nobis culpa vitae!",
+        processDescription: "As the enemy approaches, the mystical fan begins to awaken, radiating a vibrant, ethereal energy that cuts through the darkness. Swirling currents of cyan and neon-blue light pulse from its frame, illuminating the protagonist's determined face and highlighting the intricate textures of their armor. ",
         process: [
             "Images/Process_loading_2_1.png",
             "Images/Process_loading_2_2.png",
@@ -29,7 +29,7 @@ const illustrations = [
         title: "Illustration 3",
         image: "Images/Loading_3.png",
         video: "Videos/Loading_3.mp4",
-        processDescription: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, eligendi consequuntur commodi, dolorem sequi cupiditate nostrum animi, doloremque voluptate aspernatur ea. Autem, ratione deleniti! Repellendus quibusdam rem nobis culpa vitae!",
+        processDescription: "In the heart of a mystical realm, the protagonist stands poised with a gleaming sword held ready for battle. Spreading wide from their back is a pair of majestic, radiant white phoenix wings, each feather glowing with an ethereal light.",
         process: [
             "Images/Process_loading_3_1.png",
             "Images/Process_loading_3_2.png",
@@ -40,7 +40,7 @@ const illustrations = [
         title: "Illustration 4",
         image: "Images/Loading_4.png",
         video: "Videos/Loading_4.mp4",
-        processDescription: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, eligendi consequuntur commodi, dolorem sequi cupiditate nostrum animi, doloremque voluptate aspernatur ea. Autem, ratione deleniti! Repellendus quibusdam rem nobis culpa vitae!",
+        processDescription: "Guarding the threshold of the imperial palace, a monstrous tiger beast stands proud and defiant, completely blocking the grand stone staircase. With a massive, muscular frame and eyes burning with primal fury, the creature radiates an undeniable aura of absolute dominance.",
         process: [
             "Images/Process_loading_4_1.png",
             "Images/Process_loading_4_2.png",
@@ -51,7 +51,7 @@ const illustrations = [
         title: "Illustration 5",
         image: "Images/Loading_5.png",
         video: "Videos/Loading_5.mp4",
-        processDescription: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, eligendi consequuntur commodi, dolorem sequi cupiditate nostrum animi, doloremque voluptate aspernatur ea. Autem, ratione deleniti! Repellendus quibusdam rem nobis culpa vitae!",
+        processDescription: "Rising slowly behind the temple's imperial silhouette, a colossal water dragon begins to materialize from a hidden lake. Its massive body, formed entirely of churning, translucent river water, glows with a soft, bioluminescent light that reflects off the dark leaves of the surrounding forest.",
         process: [
             "Images/Process_loading_5_1.png",
             "Images/Process_loading_5_2.png",
@@ -62,7 +62,7 @@ const illustrations = [
         title: "Illustration 6",
         image: "Images/Loading_6.png",
         video: "Videos/Loading_6.mp4",
-        processDescription: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, eligendi consequuntur commodi, dolorem sequi cupiditate nostrum animi, doloremque voluptate aspernatur ea. Autem, ratione deleniti! Repellendus quibusdam rem nobis culpa vitae!",
+        processDescription: "Under a dramatic night sky filled with swirling, roiling clouds of indigo and gold, a colossal, skeletal elephant beast begins to materialize. Its massive bones, etched with age and ancient magic, break through the heavy atmosphere, towering over the jagged mountain range.",
         process: [
             "Images/Process_loading_6_1.png",
             "Images/Process_loading_6_2.png",
@@ -133,10 +133,10 @@ const IllustrationPanel = ({ illustration }) => (
                     <p className="font-UTM text-center px-2 uppercase text-base">Process</p>
                 </div>
                 <div className="flex bg-gray-600 flex-col p-3 gap-5 flex-1 justify-between">
-                    <div>
+                    <div className="hidden md:flex">
                         <p className="text-sm normal-case">{illustration.processDescription}</p>
                     </div>
-                    <div className="flex gap-3">
+                    <div className="flex flex-col md:flex-row gap-3">
                         {illustration.process.map((src, i) => (
                             <div className="flex-1" key={src}>
                                 <PhotoView src={src}>
@@ -231,9 +231,9 @@ export default function ProjectOne_3() {
             </div>
             <div>
                 <div className="md:px-10">
-                <div className="flex pt-10 items-center gap-6 md:gap-0 md:flex-row flex-col-reverse">
+                <div className="flex pt-10 items-center gap-6  md:gap-0 lg:flex-row flex-col-reverse">
                         <div className="flex flex-col gap-6 flex-2">
-                            <h2 className="font-UTM text-center text-2xl ">Item concept 1</h2>
+                            <h2 className="font-UTM text-center text-2xl py-5 lg:py-0">Item concept 1</h2>
                             <p className="font-UTM text-center text-sm md:px-10 px-5 normal-case">A sacred jade or bronze chime shaped like a crescent cloud, modeled after the ceremonial instruments of the Nguyen Dynasty. Engraved with elegant royal inscriptions, it emits a resonant, metallic hum when struck. When activated, it rings out a sharp, purifying sound wave that stuns nearby enemies and provides a protective barrier to the user.</p>
                         </div>
                         <div className="flex-3">
@@ -243,12 +243,12 @@ export default function ProjectOne_3() {
                         </div>
                     </div>
                     <div className="overflow-hidden relative aspect-video">
-                        <div className="hidden md:flex absolute top-[20%] right-0 w-150 max-w-full flex-col gap-5">
+                        <div className="hidden lg:flex absolute top-[20%] right-0 w-150 max-w-full flex-col gap-5">
                             <h2 className="font-UTM text-center text-2xl ">Item concept 2</h2>
                             <p className="font-UTM text-center text-sm px-10 normal-case">An antique bronze censer used in royal chambers to purify the air and calm the mind. It features delicate openwork carvings that allow thin ribbons of aromatic agarwood smoke to rise. When activated, it glows with a warm, golden hue, casting a serene aura that boosts player focus and restores spiritual energy.</p>
                         </div>
                          <PhotoView src="Images/Item_concept_1.png">
-                            <img className="w-full absolute top-0 left-0 md:left-[-30%]" src="Images/Item_concept_1.png" alt="Item concept 1"  />
+                            <img className="w-full absolute top-0 left-0 lg:left-[-30%]" src="Images/Item_concept_1.png" alt="Item concept 1"  />
                          </PhotoView>
                     </div>
                     

@@ -52,11 +52,11 @@ export default function ProjectOne_2() {
                         <div className="absolute top-0 left-0 h-full items-center p-6 text-sm flex flex-col justify-between w-100 max-w-[50%]"> 
                             <div className="hidden md:block">
                                 <h2 className="pb-2 text-[clamp(10px,1.5vw,16px)]">ARCHITECT IDEA</h2>
-                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)]">The 2025 Calendar Project is inspired by the traditional patterns and decorative motifs of the Nguyen Dynasty. The design combines cultural heritage with a modern layout, highlighting the beauty of Vietnamese royal art.</p>
+                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)]">Standing as the crown jewel of the imperial map, this grand fortress gate draws direct inspiration from Hue’s legendary Ngọ Môn Gate.</p>
                             </div>
                             <div className="hidden md:block">
                                 <h2 className="pb-2 text-[clamp(10px,1.5vw,16px)]">ARCHITECT IDEA</h2>
-                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)]">The 2025 Calendar Project is inspired by the traditional patterns and decorative motifs of the Nguyen Dynasty. The design combines cultural heritage with a modern layout, highlighting the beauty of Vietnamese royal art.</p>
+                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)]">Perched atop this formidable foundation is a stunning recreation of the Lầu Ngũ Phụng (Five Phoenix Pavilion).</p>
                             </div>
                         </div>
                         <PhotoView src="Images/EnviromentDesign_Breakdown_2.png">
@@ -79,7 +79,7 @@ export default function ProjectOne_2() {
                         <div className="absolute bottom-[5%] left-[22%]  items-center text-sm flex flex-col justify-between w-110 max-w-[35%]"> 
                             <div className="hidden md:block">
                                 <h2 className="pb-2 text-[clamp(10px,1.5vw,16px)]">ARCHITECT IDEA</h2>
-                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)]">The 2025 Calendar Project is inspired by the traditional patterns and decorative motifs of the Nguyen Dynasty. The design combines cultural heritage with a modern layout, highlighting the beauty of Vietnamese royal art.</p>
+                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)]">The game's architectural design is deeply inspired by the Hue Imperial Citadel, with the iconic Ngọ Môn Gate serving as the central artistic muse.</p>
                             </div>
                         </div>
                         <PhotoView src="Images/EnviromentDesign_Breakdown_3.png">
