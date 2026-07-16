@@ -8,6 +8,13 @@
 }
 
 @font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/poppins-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'StarifeDemo';
     src: url('/fonts/StarifeDemo.ttf') format('truetype');
     font-weight: normal;
@@ -17,6 +24,7 @@
 @theme {
     --font-UTM: 'UTM_Amerika_Sans', sans-serif;
     --font-starifeDemo: 'StarifeDemo', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
 }
 
 body {

@@ -134,7 +134,7 @@ const IllustrationPanel = ({ illustration }) => (
                 </div>
                 <div className="flex bg-gray-600 flex-col p-3 gap-5 flex-1 justify-between">
                     <div className="hidden md:flex">
-                        <p className="text-sm normal-case">{illustration.processDescription}</p>
+                        <p className="text-sm normal-case font-poppins">{illustration.processDescription}</p>
                     </div>
                     <div className="flex flex-col md:flex-row gap-3">
                         {illustration.process.map((src, i) => (
@@ -222,7 +222,7 @@ export default function ProjectOne_3() {
                 <PhotoView src="Images/Btn_design.png">
                     <img className="w-full" src="Images/Btn_design.png" alt="Button design"  />
                 </PhotoView>
-                <p className="font-UTM text-center text-sm md:px-10 px-5 normal-case">The buttons are designed as sleek, dark lacquer plaques bordered by elegant gold leaf. On hover, they emit a warm, brushed Imperial Yellow glow. Clicking triggers a crisp press animation accompanied by a subtle ceremonial gong sound, delivering satisfying modern feedback with a royal touch.</p>
+                <p className="font-poppins text-center text-sm md:px-10 px-5 normal-case">The buttons are designed as sleek, dark lacquer plaques bordered by elegant gold leaf. On hover, they emit a warm, brushed Imperial Yellow glow. Clicking triggers a crisp press animation accompanied by a subtle ceremonial gong sound, delivering satisfying modern feedback with a royal touch.</p>
                 </div>
             </div>
              <div className='flex items-center pt-8'>
@@ -234,7 +234,7 @@ export default function ProjectOne_3() {
                 <div className="flex pt-10 items-center gap-6  md:gap-0 lg:flex-row flex-col-reverse">
                         <div className="flex flex-col gap-6 flex-2">
                             <h2 className="font-UTM text-center text-2xl py-5 lg:py-0">Item concept 1</h2>
-                            <p className="font-UTM text-center text-sm md:px-10 px-5 normal-case">A sacred jade or bronze chime shaped like a crescent cloud, modeled after the ceremonial instruments of the Nguyen Dynasty. Engraved with elegant royal inscriptions, it emits a resonant, metallic hum when struck. When activated, it rings out a sharp, purifying sound wave that stuns nearby enemies and provides a protective barrier to the user.</p>
+                            <p className="font-poppins text-center text-sm md:px-10 px-5 normal-case">A sacred jade or bronze chime shaped like a crescent cloud, modeled after the ceremonial instruments of the Nguyen Dynasty. Engraved with elegant royal inscriptions, it emits a resonant, metallic hum when struck. When activated, it rings out a sharp, purifying sound wave that stuns nearby enemies and provides a protective barrier to the user.</p>
                         </div>
                         <div className="flex-3">
                             <PhotoView src="Images/Item_concept_2.png">
@@ -245,7 +245,7 @@ export default function ProjectOne_3() {
                     <div className="overflow-hidden relative aspect-video">
                         <div className="hidden lg:flex absolute top-[20%] right-0 w-150 max-w-full flex-col gap-5">
                             <h2 className="font-UTM text-center text-2xl ">Item concept 2</h2>
-                            <p className="font-UTM text-center text-sm px-10 normal-case">An antique bronze censer used in royal chambers to purify the air and calm the mind. It features delicate openwork carvings that allow thin ribbons of aromatic agarwood smoke to rise. When activated, it glows with a warm, golden hue, casting a serene aura that boosts player focus and restores spiritual energy.</p>
+                            <p className="font-poppins text-center text-sm px-10 normal-case">An antique bronze censer used in royal chambers to purify the air and calm the mind. It features delicate openwork carvings that allow thin ribbons of aromatic agarwood smoke to rise. When activated, it glows with a warm, golden hue, casting a serene aura that boosts player focus and restores spiritual energy.</p>
                         </div>
                          <PhotoView src="Images/Item_concept_1.png">
                             <img className="w-full absolute top-0 left-0 lg:left-[-30%]" src="Images/Item_concept_1.png" alt="Item concept 1"  />

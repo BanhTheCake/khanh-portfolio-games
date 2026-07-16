@@ -15,7 +15,7 @@ export default function ProjectOne() {
                 <img className="w-250" src="Images/LogoLoanThe.png" alt="Logo Loạn Thế"  />
             </div>
             <div className="flex justify-center py-3">
-                <p className="font-UTM text-center text-sm px-2 w-250 normal-case">The logo for "Loạn Thế" is a striking fusion of historical grandeur and chaotic warfare. It draws heavy inspiration from the majestic architecture of the Nguyen Dynasty and is brought to life using a prestigious, high-contrast imperial court color palette.</p>
+                <p className="font-poppins text-center text-sm px-2 w-250 normal-case">The logo for "Loạn Thế" is a striking fusion of historical grandeur and chaotic warfare. It draws heavy inspiration from the majestic architecture of the Nguyen Dynasty and is brought to life using a prestigious, high-contrast imperial court color palette.</p>
             </div>
              <div className='flex items-center py-5'>
                 <img className="h-12 " src="Images/WhiteArrow.png" alt="Icon Arrow" />
@@ -39,7 +39,7 @@ export default function ProjectOne() {
                 </div>
             </div>
             <div className="flex pt-10 pb-5 flex-col items-center">
-                <p className="font-UTM text-center text-sm px-2 w-250 max-w-full normal-case">This design embodies the faded majesty of the Nguyen Dynasty, blending battle-ready armor with Hue's royal textiles. The armor plates and silk robes are adorned with intricate imperial court embroidery and traditional royal patterns.</p>
+                <p className="font-poppins text-center text-sm px-2 w-250 max-w-full normal-case">This design embodies the faded majesty of the Nguyen Dynasty, blending battle-ready armor with Hue's royal textiles. The armor plates and silk robes are adorned with intricate imperial court embroidery and traditional royal patterns.</p>
             </div>
             <div className="flex flex-col items-center font-UTM text-white py-5">
                             <div className="flex items-center justify-center gap-5 w-full max-w-200 pb-4">

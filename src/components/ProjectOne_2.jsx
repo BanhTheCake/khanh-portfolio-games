@@ -38,7 +38,7 @@ export default function ProjectOne_2() {
                     </div>
                 </div>
                 <div className="flex justify-center py-5">
-                    <p className="font-UTM text-center text-sm md:px-10 px-6 normal-case">Inspired by Hue’s historic royal amphitheater, this map is reimagined as a brutal, high-stakes deathmatch arena. The battlefield is a massive, circular stone colosseum with high, weathered ramparts where ghostly imperial banners still flutter in the wind. The cracked stone ground is stained with ancient blood, littered with rusted chains, shattered wooden cages, and iron-spiked barricades that create tactical cover.</p>
+                    <p className="font-poppins text-center text-sm md:px-10 px-6 normal-case">Inspired by Hue’s historic royal amphitheater, this map is reimagined as a brutal, high-stakes deathmatch arena. The battlefield is a massive, circular stone colosseum with high, weathered ramparts where ghostly imperial banners still flutter in the wind. The cracked stone ground is stained with ancient blood, littered with rusted chains, shattered wooden cages, and iron-spiked barricades that create tactical cover.</p>
                 </div>
             </div>
             <div className="flex flex-col pb-10">
@@ -52,11 +52,11 @@ export default function ProjectOne_2() {
                         <div className="absolute top-0 left-0 h-full items-center p-6 text-sm flex flex-col justify-between w-100 max-w-[50%]"> 
                             <div className="hidden md:block">
                                 <h2 className="pb-2 text-[clamp(10px,1.5vw,16px)]">ARCHITECT IDEA</h2>
-                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)]">Standing as the crown jewel of the imperial map, this grand fortress gate draws direct inspiration from Hue’s legendary Ngọ Môn Gate.</p>
+                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)] font-poppins">Standing as the crown jewel of the imperial map, this grand fortress gate draws direct inspiration from Hue’s legendary Ngọ Môn Gate.</p>
                             </div>
                             <div className="hidden md:block">
                                 <h2 className="pb-2 text-[clamp(10px,1.5vw,16px)]">ARCHITECT IDEA</h2>
-                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)]">Perched atop this formidable foundation is a stunning recreation of the Lầu Ngũ Phụng (Five Phoenix Pavilion).</p>
+                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)] font-poppins">Perched atop this formidable foundation is a stunning recreation of the Lầu Ngũ Phụng (Five Phoenix Pavilion).</p>
                             </div>
                         </div>
                         <PhotoView src="Images/EnviromentDesign_Breakdown_2.png">
@@ -65,7 +65,7 @@ export default function ProjectOne_2() {
                     </div>
                 </div>
                 <div className="flex justify-center py-5">
-                    <p className="font-UTM text-center text-sm md:px-10 px-6 normal-case">Inspired by the serene yet mystical atmosphere of Hue’s famous temple, this map is designed as a sanctuary of spiritual warfare. The battlefield is set within a mountain valley wrapped in perpetual fog and ancient pine forests. Zen-style stone bridges, calm reflection ponds, and towering white stupas with golden spires offer multi-layered verticality and vantage points for players.</p>
+                    <p className="font-poppins text-center text-sm md:px-10 px-6 normal-case">Inspired by the serene yet mystical atmosphere of Hue’s famous temple, this map is designed as a sanctuary of spiritual warfare. The battlefield is set within a mountain valley wrapped in perpetual fog and ancient pine forests. Zen-style stone bridges, calm reflection ponds, and towering white stupas with golden spires offer multi-layered verticality and vantage points for players.</p>
                 </div>
             </div>
              <div className="flex flex-col pb-2 md:pb-10">
@@ -79,7 +79,7 @@ export default function ProjectOne_2() {
                         <div className="absolute bottom-[5%] left-[22%]  items-center text-sm flex flex-col justify-between w-110 max-w-[35%]"> 
                             <div className="hidden md:block">
                                 <h2 className="pb-2 text-[clamp(10px,1.5vw,16px)]">ARCHITECT IDEA</h2>
-                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)]">The game's architectural design is deeply inspired by the Hue Imperial Citadel, with the iconic Ngọ Môn Gate serving as the central artistic muse.</p>
+                                <p className="normal-case leading-snug text-[clamp(8px,1vw,14px)] font-poppins">The game's architectural design is deeply inspired by the Hue Imperial Citadel, with the iconic Ngọ Môn Gate serving as the central artistic muse.</p>
                             </div>
                         </div>
                         <PhotoView src="Images/EnviromentDesign_Breakdown_3.png">
@@ -88,7 +88,7 @@ export default function ProjectOne_2() {
                     </div>
                 </div>
                 <div className="flex justify-center py-5">
-                    <p className="font-UTM text-center text-sm md:px-10 px-5 normal-case">Inspired by the grand entrance to the Hue Imperial Citadel, this map is a sprawling, symmetrical battlefield designed for epic, large-scale sieges. The central focus is the massive, fortress-like gatehouse featuring the iconic Lầu Ngũ Phụng (Five-Phoenix Pavilion) towering above, offering high-ground dominance for snipers and defenders. Below, three arched stone tunnels serve as dangerous, high-risk chokepoints leading into the vast inner courtyards.</p>
+                    <p className="font-poppins text-center text-sm md:px-10 px-5 normal-case">Inspired by the grand entrance to the Hue Imperial Citadel, this map is a sprawling, symmetrical battlefield designed for epic, large-scale sieges. The central focus is the massive, fortress-like gatehouse featuring the iconic Lầu Ngũ Phụng (Five-Phoenix Pavilion) towering above, offering high-ground dominance for snipers and defenders. Below, three arched stone tunnels serve as dangerous, high-risk chokepoints leading into the vast inner courtyards.</p>
                 </div>
             </div>
             <div className='flex items-center pb-8'>
@@ -106,7 +106,7 @@ export default function ProjectOne_2() {
                     ))}
                 </div>
                 <div className="flex justify-center pt-10 md:pb-10 pb-5">
-                    <p className="font-UTM text-center text-sm md:px-10 px-5 normal-case">The game’s UX/UI features a minimalist, antique design inspired by Nguyen Dynasty aesthetics. Menus and borders are framed with royal lacquer textures and subtle gold-leaf accents, while buttons mimic traditional royal seals and silk scrolls. Navigating the interface feels like unfurling an imperial decree, using a refined color scheme of Pháp Lam Teal, Vermilion Red, and Imperial Yellow to deliver a smooth, modern user experience wrapped in ancient majesty.</p>
+                    <p className="font-poppins text-center text-sm md:px-10 px-5 normal-case">The game’s UX/UI features a minimalist, antique design inspired by Nguyen Dynasty aesthetics. Menus and borders are framed with royal lacquer textures and subtle gold-leaf accents, while buttons mimic traditional royal seals and silk scrolls. Navigating the interface feels like unfurling an imperial decree, using a refined color scheme of Pháp Lam Teal, Vermilion Red, and Imperial Yellow to deliver a smooth, modern user experience wrapped in ancient majesty.</p>
                 </div>
             </div>
         </div>

@@ -148,7 +148,7 @@ export default function ProjectTwo() {
                 </PhotoView>
                 </div>
                 <div className="flex justify-center py-3">
-                    <p className="font-UTM text-center text-sm px-5 md:px-2 w-250 max-w-full normal-case">The logo for "Long Quân Hùng Sử" prominently features raw, weathered metal, symbolizing the harsh, rugged, yet resilient era of nation-founding in ancient times. The scratches and cracks on the solid metallic texture reflect the sheer intensity of the fierce battles that Lạc Long Quân fought to protect his land and people. Furthermore, this heavy, unrefined metal represents the iron will, unstoppable power, and indomitable spirit of the legendary Dragon lineage.</p>
+                    <p className="font-poppins text-center text-sm px-5 md:px-2 w-250 max-w-full normal-case">The logo for "Long Quân Hùng Sử" prominently features raw, weathered metal, symbolizing the harsh, rugged, yet resilient era of nation-founding in ancient times. The scratches and cracks on the solid metallic texture reflect the sheer intensity of the fierce battles that Lạc Long Quân fought to protect his land and people. Furthermore, this heavy, unrefined metal represents the iron will, unstoppable power, and indomitable spirit of the legendary Dragon lineage.</p>
                  </div>
             </div>
             <div className='flex items-center py-5 md:py-3'>
@@ -204,7 +204,7 @@ export default function ProjectTwo() {
                 ))}
             </div>
             <div className="flex justify-center p-5 md:p-10">
-                <p className="font-UTM text-center text-sm px-2 normal-case">The UI/UX is designed with a rustic, historical aesthetic utilizing raw bronze, weathered terracotta, and dark bamboo textures from the ancient Âu Lạc era. Interactive buttons are crafted like heavy bronze drum faces engraved with iconic chim lạc (legendary bird) patterns, glowing with a soft green patina upon interaction. Menus and frames are structured around the spiral layouts of Cổ Loa citadel and geometric Đông Sơn motifs, creating an immersive, tactile interface that feels like navigating a legendary ancient relic.</p>
+                <p className="font-poppins text-center text-sm px-2 normal-case">The UI/UX is designed with a rustic, historical aesthetic utilizing raw bronze, weathered terracotta, and dark bamboo textures from the ancient Âu Lạc era. Interactive buttons are crafted like heavy bronze drum faces engraved with iconic chim lạc (legendary bird) patterns, glowing with a soft green patina upon interaction. Menus and frames are structured around the spiral layouts of Cổ Loa citadel and geometric Đông Sơn motifs, creating an immersive, tactile interface that feels like navigating a legendary ancient relic.</p>
             </div>
             <div className='flex md:items-center gap-5 md:gap-0 pt-5 pb-10 md:py-10'>
                 <img className="h-12 " src="Images/WhiteArrow.png" alt="Icon Arrow" />
